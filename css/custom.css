@@ -1,0 +1,147 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #fafafa;
+  font-family: proxima-nova, sans-serif;
+  color: #1E1E1E; }
+
+img {
+  width: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0; }
+
+.landing-container {
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/bg.jpg");
+  background-attachment: fixed; }
+
+.left-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 100vh; }
+
+.landing-content {
+  text-align: center; }
+  .landing-content h2 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #fafafa;
+    text-shadow: 2px 2px 3px #333; }
+
+#ripcurlLogo {
+  width: 50%; }
+
+.nav-section {
+  display: flex;
+  width: 30%;
+  height: 100vh;
+  align-items: center;
+  margin-left: 5%; }
+
+.nav {
+  display: flex;
+  position: fixed;
+  height: 30vh;
+  width: 50vh;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem; }
+  .nav ol {
+    list-style: none;
+    color: #333; }
+  .nav a {
+    color: #333;
+    text-decoration: none; }
+    .nav a button {
+      position: fixed;
+      bottom: 10px;
+      float: right;
+      right: 10px;
+      max-width: 30px;
+      width: 100%;
+      font-size: 24px;
+      border: none;
+      background-color: none;
+      padding: 0.5px;
+      border-radius: 4px; }
+  .nav a:hover {
+    color: #b3282d;
+    cursor: pointer; }
+
+.about-container {
+  height: 100vh;
+  margin-left: 5%;
+  padding-top: 5%;
+  width: 60%;
+  letter-spacing: 0.125rem; }
+  .about-container h1 {
+    padding-top: 7%;
+    text-align: center;
+    text-transform: uppercase; }
+  .about-container h2 {
+    margin-top: 2%;
+    margin-left: 5%; }
+  .about-container .about-type {
+    column-count: 2;
+    column-gap: 10px; }
+    .about-container .about-type p {
+      font-size: 20px;
+      margin-top: 2%;
+      margin-left: 7%; }
+
+.type-container {
+  height: 100vh; }
+
+.type-left-cont {
+  width: 70vw;
+  height: 100vh; }
+
+.type-content {
+  padding: 10%; }
+  .type-content h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.5rem; }
+  .type-content h2 {
+    margin-left: 5%;
+    margin-top: 2%;
+    font-weight: 600;
+    font-size: 3rem; }
+  .type-content #proximaNovaBold {
+    font-weight: 600;
+    margin-top: 12%; }
+  .type-content #proximaNovaLight {
+    font-weight: 400;
+    margin-top: 12%; }
+  .type-content #lightExample {
+    font-weight: 400; }
+  .type-content #boldh2 {
+    font-size: 40px; }
+  .type-content #light {
+    color: #333;
+    text-decoration: underline; }
+  .type-content #lighth3 {
+    font-size: 17px;
+    line-height: 0px; }
+
+/*# sourceMappingURL=custom.css.map */

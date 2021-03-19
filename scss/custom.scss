@@ -1,0 +1,203 @@
+$main-font: proxima-nova, sans-serif;
+$light: 400;
+$semi-bold: 600;
+$rip-curl-red: #b3282d;
+$rip-curl-black: #1E1E1E;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #fafafa;
+  font-family: $main-font;
+  color: $rip-curl-black;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.landing-container {
+  display: flex;
+  justify-content: center;
+  background-image: url('../img/bg.jpg');
+  background-attachment: fixed;
+
+}
+
+.left-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 100vh;
+  // background-color: pink;
+}
+
+.landing-content {
+  text-align: center;
+
+  h2 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: $light;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #fafafa;
+    text-shadow: 2px 2px 3px #333 ;
+  }
+}
+
+#ripcurlLogo {
+  width: 50%;
+}
+
+.nav-section {
+  // background-color: rgb(144, 219, 232);
+  display: flex;
+  width: 30%;
+  height: 100vh;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.nav {
+  // background-color: rgb(242, 214, 63);
+  display: flex;
+  position: fixed;
+  height: 30vh;
+  width: 50vh;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: $semi-bold;
+  letter-spacing: 0.2rem;
+  ol {
+    list-style: none;
+    color: #333;
+  }
+
+  a {
+    color: #333;
+    text-decoration: none;
+
+    button {
+      position: fixed;
+      bottom: 10px;
+      float: right;
+      right: 10px;
+      max-width: 30px;
+      width: 100%;
+      font-size: 24px;
+      border: none;
+      background-color: none;
+      padding: 0.5px;
+      border-radius: 4px;
+    }
+  }
+
+  a:hover {
+    color: $rip-curl-red;
+    cursor: pointer;
+  }
+}
+// end of landing page ---------------------------------------------------------
+// start of about section ------------------------------------------------------
+.about-container {
+  height: 100vh;
+  margin-left: 5%;
+  padding-top: 5%;
+  width: 60%;
+  letter-spacing: 0.125rem;
+
+  h1 {
+    padding-top: 7%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+
+  .about-type {
+    column-count: 2;
+    column-gap: 10px;
+
+    p {
+      font-size: 20px;
+      margin-top: 2%;
+      margin-left: 7%;
+    }
+  }
+}
+// end of about section --------------------------------------------------------
+// start of typography section -------------------------------------------------
+.type-container {
+  // background-color: rgb(232, 197, 84);
+  height: 100vh;
+}
+
+.type-left-cont {
+  // background-color: rgb(255, 127, 83);
+  width: 70vw;
+  height: 100vh;
+}
+
+.type-content {
+  padding: 10%;
+
+  h1 {
+    text-transform: uppercase;
+    font-weight: $semi-bold;
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+  }
+
+  h2 {
+    margin-left: 5%;
+    margin-top: 2%;
+    font-weight: $semi-bold;
+    font-size: 3rem;
+  }
+
+  #proximaNovaBold {
+    font-weight: $semi-bold;
+    margin-top: 12%;
+  }
+  #proximaNovaLight {
+    font-weight: $light;
+    margin-top: 12%;
+  }
+  #lightExample {
+    font-weight: $light;
+  }
+  #boldh2 {
+    font-size: 40px;
+
+  }
+  #light {
+    color: #333;
+    text-decoration: underline;
+  }
+  #lighth3 {
+    font-size: 17px;
+    line-height: 0px;
+  }
+}
+// end of typography section ---------------------------------------------------
